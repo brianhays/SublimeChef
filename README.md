@@ -1,9 +1,9 @@
 SublimeChef
 ===========
 
-A Sublime Text 2 Package for authoring Chef related files.
+A Sublime Text Package for authoring Chef related files. Supports Sublime Text versions 2 and 3.
 
-This Package provides several code snippets designed to make writing chef recipes faster and even more fun. 
+This Package provides several code snippets designed to make writing chef recipes faster and even more fun.
 Each snippet has sensible defaults, carefully chosen placeholders, and several variations to cover almost all of your recipe needs.
 
 Maybe this is better explained with a [youtube demo video](http://www.youtube.com/watch?v=4VtDj_ar1Xg).
@@ -12,12 +12,12 @@ Maybe this is better explained with a [youtube demo video](http://www.youtube.co
 Install
 -------
 
-If you have Package Control installed in Sublime Text 2 just press ctrl+shift+p (Windows, Linux) or cmd+shift+p (OS X) to open the Command Pallete.
+If you have Package Control installed in Sublime Text just press ctrl+shift+p (Windows, Linux) or cmd+shift+p (OS X) to open the Command Pallete.
 Start typing 'install' to select 'Package Control: Install Package', then search for Chef and select it. That's it.
 
-You can also install this package manually by entering the Packages directory of Sublime Text 2 and issuing on a terminal:
-    
-    git clone https://github.com/cabeca/SublimeChef Chef
+You can also install this package manually by entering the Packages directory of Sublime Text (on OSX this would normally be `~/Library/Application\ Support/Sublime\ Text\ 3/Packages/`) and issuing on a terminal:
+
+    git clone https://github.com/brianhays/SublimeChef
 
 
 
