@@ -1,10 +1,11 @@
 <snippet>
 	<content><![CDATA[
 template '${1:name}' do
-  source '${2:source}.erb'
+  path '${2:path}'
+  source '${3:source}.erb'
   owner 'root'
   group 'root'
-  mode 00644
+  mode ${4:00644}
 end
 
 ]]></content>

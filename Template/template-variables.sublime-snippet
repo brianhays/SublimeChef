@@ -1,11 +1,12 @@
 <snippet>
 	<content><![CDATA[
 template '${1:name}' do
-  source '${2:source}.erb'
+  path '${2:path}'
+  source '${3:source}.erb'
   owner 'root'
   group 'root'
-  mode 00644
-  variables(${3::config_var => node['configs']['config_var']})
+  mode ${4:00644}
+  variables(${5::config_var => node['configs']['config_var']})
 end
 
 ]]></content>
