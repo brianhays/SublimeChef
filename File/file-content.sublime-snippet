@@ -4,8 +4,8 @@ file '${1:name}' do
   action :create
   owner 'root'
   group 'root'
-  mode 00644
-  content '${2:content here}'
+  mode ${2:00644}
+  content '${3:content here}'
 end
 
 ]]></content>
