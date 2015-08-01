@@ -92,6 +92,7 @@ These are the available completions:
 	role
 	ruby
 	script
+	servicen
 	servicep
 	service
 	templatev
