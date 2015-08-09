@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-supports :status => :${1:true}, :restart => :${2:true}, :reload => :${3:true}
+supports :start => ${1:true}, :stop => ${2:true}, :status => ${3:true}, :restart => ${4:true}, :reload => ${5:true}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>supports</tabTrigger>

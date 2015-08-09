@@ -4,7 +4,8 @@ cookbook_file '${1:name}' do
   source '${2:source}'
   owner 'root'
   group 'root'
-  mode ${2:00644}
+  mode ${3:00644}
+  action :${4:create}
 end
 
 ]]></content>

@@ -4,7 +4,7 @@ directory '${1:name}' do
   owner 'root'
   group 'root'
   mode ${2:00755}
-  action :create
+  action :${3:create}
 end
 
 ]]></content>
