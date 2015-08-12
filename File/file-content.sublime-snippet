@@ -1,11 +1,11 @@
 <snippet>
 	<content><![CDATA[
 file '${1:name}' do
-  action :create
   owner 'root'
   group 'root'
   mode ${2:00644}
   content '${3:content here}'
+  action :create
 end
 
 ]]></content>

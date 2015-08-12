@@ -1,14 +1,14 @@
 <snippet>
 	<content><![CDATA[
 cookbook_file '${1:name}' do
-  action :${2:create}
-  path '${3:path}'
-  source '${4:source}'
+  path '${2:path}'
+  source '${3:source}'
+  cookbook '${4:cookbook}'
   owner '${5:root}'
   group '${6:root}'
   mode ${7:00644}
   backup ${8:5}
-  cookbook '${9:cookbook}'
+  action :${9:create}
 end
 
 ]]></content>

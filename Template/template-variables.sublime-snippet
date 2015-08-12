@@ -6,7 +6,9 @@ template '${1:name}' do
   owner 'root'
   group 'root'
   mode ${4:00644}
-  variables(${5::config_var => node['configs']['config_var']})
+  variables(
+      ${5::config_var => node['configs']['config_var']}
+  )
 end
 
 ]]></content>
