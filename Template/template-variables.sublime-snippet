@@ -7,7 +7,7 @@ template '${1:name}' do
   group 'root'
   mode ${4:00644}
   variables(
-    ${5::config_var => node['configs']['config_var']}
+    ${5:config_var: node['configs']['config_var']}
   )
 end
 
