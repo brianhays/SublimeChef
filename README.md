@@ -12,10 +12,7 @@ Maybe this is better explained with a [youtube demo video](http://www.youtube.co
 Install
 -------
 
-If you have Package Control installed in Sublime Text just press ctrl+shift+p (Windows, Linux) or cmd+shift+p (OS X) to open the Command Pallete.
-Start typing 'install' to select 'Package Control: Install Package', then search for Chef and select it. That's it.
-
-You can also install this package manually by entering the Packages directory of Sublime Text (on OSX this would normally be `~/Library/Application\ Support/Sublime\ Text\ 3/Packages/`) and issuing on a terminal:
+You can install this package by entering the Packages directory of Sublime Text (on OSX this would normally be `~/Library/Application\ Support/Sublime\ Text\ 3/Packages/`) and issuing on a terminal:
 
     git clone https://github.com/brianhays/SublimeChef
 
