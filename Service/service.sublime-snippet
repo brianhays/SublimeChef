@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 service '${1:name}' do
-  supports :start => ${2:true}, :stop => ${3:true}, :status => ${4:true}, :restart => ${5:true}, :reload => ${6:true}
+  supports start: ${2:true}, stop: ${3:true}, status: ${4:true}, restart: ${5:true}, reload: ${6:true}
   action ${7:[:start, :enable]}
 end
 
