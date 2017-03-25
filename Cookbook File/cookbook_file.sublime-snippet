@@ -2,10 +2,10 @@
 	<content><![CDATA[
 cookbook_file '${1:name}' do
   source '${2:source}'
-  owner 'root'
-  group 'root'
-  mode ${3:00644}
-  action :${4:create}
+  owner '${3:root}'
+  group '${4:root}'
+  mode ${5:00644}
+  action :${6:create}
 end
 
 ]]></content>

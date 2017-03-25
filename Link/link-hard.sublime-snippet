@@ -3,6 +3,7 @@
 link '${1:/tmp/passwd}' do
   to '${2:/etc/passwd}'
   link_type :hard
+  action :${3:create}
 end
 
 ]]></content>

@@ -5,6 +5,7 @@ link '${1:/tmp/passwd}' do
   link_type :${3:symbolic}
   owner '${4:root}'
   group '${5:root}'
+  action :${6:create}
 end
 
 ]]></content>

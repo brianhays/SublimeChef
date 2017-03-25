@@ -1,13 +1,12 @@
 <snippet>
 	<content><![CDATA[
 file '${1:name}' do
-  path '${2:path}'
-  backup ${3:5}
-  owner '${4:root}'
-  group '${5:root}'
-  mode ${6:00644}
-  content '${7:content here}'
-  action :${8:create}
+  source '${2:source}'
+  owner '${3:root}'
+  group '${4:root}'
+  mode ${5:00644}
+  content '${6:content here}'
+  action :${7:create}
 end
 
 ]]></content>

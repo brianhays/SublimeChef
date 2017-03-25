@@ -5,7 +5,7 @@ directory '${1:name}' do
   owner '${3:root}'
   group '${4:root}'
   mode ${5:00755}
-  recursive ${6:false}
+  recursive ${6:true}
   action :${7:create}
 end
 

@@ -2,8 +2,7 @@
 	<content><![CDATA[
 execute '${1:name}' do
   command '${2:ls -la}'
-  creates '${3:/tmp/something}'
-  action :${4:run}
+  action :${3:run}
 end
 
 ]]></content>
